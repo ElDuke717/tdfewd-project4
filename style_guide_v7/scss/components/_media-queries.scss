@@ -79,6 +79,8 @@
       flex-basis: 100%;
     }
     
+//Create a base selector for .nav and nest .nav-link inside of it.
+
     .nav {
       flex-direction: row;
       justify-content: flex-end;

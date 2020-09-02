@@ -7,6 +7,49 @@
 /* ============================================= */
 /*              Variables                     */
 /* ============================================= */
+/* ============================================= */
+/*              Variables                     */
+/* ============================================= */
+.btn default {
+  color: #51ddfc;
+}
+
+.btn default:hover {
+  background-color: lighten #51ddfc, 15%;
+}
+
+.btn success {
+  color: #63CC82;
+}
+
+.btn success:hover {
+  background-color: lighten #63CC82, 15%;
+}
+
+.btn info {
+  color: #927bc1;
+}
+
+.btn info:hover {
+  background-color: lighten #927bc1, 15%;
+}
+
+.btn error {
+  color: #e4757a;
+}
+
+.btn error:hover {
+  background-color: lighten #e4757a, 15%;
+}
+
+.btn warning {
+  color: #FD7846;
+}
+
+.btn warning:hover {
+  background-color: lighten #FD7846, 15%;
+}
+
 /*=====================================*/
 /*   Base Imports   */
 /*=====================================*/
@@ -410,26 +453,87 @@ a {
   border-radius: 5px;
 }
 
-.default {
-  background-color: #51ddfc;
+.btn default {
+  color: #51ddfc;
 }
 
-.error {
-  background-color: #e4757a;
+.btn default:hover {
+  background-color: lighten #51ddfc, 15%;
 }
 
-.info {
-  background-color: #927bc1;
+.btn success {
+  color: #63CC82;
 }
 
-.success {
-  background-color: #63cc82;
+.btn success:hover {
+  background-color: lighten #63CC82, 15%;
 }
 
-.warning {
-  background-color: #fd7856;
+.btn info {
+  color: #927bc1;
 }
 
+.btn info:hover {
+  background-color: lighten #927bc1, 15%;
+}
+
+.btn error {
+  color: #e4757a;
+}
+
+.btn error:hover {
+  background-color: lighten #e4757a, 15%;
+}
+
+.btn warning {
+  color: #FD7846;
+}
+
+.btn warning:hover {
+  background-color: lighten #FD7846, 15%;
+}
+
+/*
+  .default {
+    background-color: $default-color;
+    &:hover{
+      background-color: lighten($default-color, 15%);
+      transition: .5s;
+    }
+  }
+  
+  .error {
+    background-color: $error-color;
+    &:hover{
+      background-color: lighten($error-color, 15%);
+      transition: .5s;
+    }
+  }
+  
+  .info {
+    background-color: $info-color;
+    &:hover{
+      background-color: lighten($info-color, 15%);
+      transition: .5s;
+    }
+  }
+  
+  .success {
+    background-color: $success-color;
+    &:hover{
+      background-color: lighten($success-color, 15%);
+      transition: .5s;
+    }
+  }
+  
+  .warning {
+    background-color: $warning-color;
+    &:hover{
+      background-color: lighten($warning-color, 15%);
+      transition: .5s;
+    }
+  }
+  */
 /* ============================================= */
 /*              Forms                            */
 /* ============================================= */
@@ -465,7 +569,7 @@ a {
   flex-direction: column;
 }
 
-.nav-link {
+.nav .nav-link {
   text-align: center;
   border-radius: 5px;
   padding: 10px 0;
@@ -474,7 +578,7 @@ a {
   transition: background-color .2s ease-in-out,  color .2s ease-in-out;
 }
 
-.nav-link:hover {
+.nav .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
 }
@@ -533,7 +637,7 @@ a {
 }
 
 .theme.col-2 {
-  background-color: #fd7856;
+  background-color: #FD7846;
 }
 
 .theme.col-3 {
@@ -565,7 +669,7 @@ a {
 }
 
 .theme.col-10 {
-  background-color: #63cc82;
+  background-color: #63CC82;
 }
 
 .theme.col-11 {

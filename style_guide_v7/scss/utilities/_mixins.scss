@@ -1,0 +1,21 @@
+/* ============================================= */
+/*              Variables                     */
+/* ============================================= */
+
+
+
+@mixin buttons($map) {
+    @each $btn, $color in $map {
+      & #{$btn} {
+        color: $color;
+        
+       &:hover {
+        background-color: lighten ($color, 15%);
+      }
+      }
+    } 
+  }
+  
+  .btn {
+    @include buttons($btns);
+  }

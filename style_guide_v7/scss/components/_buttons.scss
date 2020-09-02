@@ -10,25 +10,53 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+    %btn {
+      @include buttons($btns);
+    }
   }
   
+  .btn {
+    @include buttons($btns);
+  }
+  /*
   .default {
-    background-color: $secondary-color;
+    background-color: $default-color;
+    &:hover{
+      background-color: lighten($default-color, 15%);
+      transition: .5s;
+    }
   }
   
   .error {
-    background-color: $quarternary-color;
+    background-color: $error-color;
+    &:hover{
+      background-color: lighten($error-color, 15%);
+      transition: .5s;
+    }
   }
   
   .info {
-    background-color: $tertiary-color;
+    background-color: $info-color;
+    &:hover{
+      background-color: lighten($info-color, 15%);
+      transition: .5s;
+    }
   }
   
   .success {
-    background-color: #63cc82;
+    background-color: $success-color;
+    &:hover{
+      background-color: lighten($success-color, 15%);
+      transition: .5s;
+    }
   }
   
   .warning {
-    background-color: #fd7856;
+    background-color: $warning-color;
+    &:hover{
+      background-color: lighten($warning-color, 15%);
+      transition: .5s;
+    }
   }
-  
+  */
+
