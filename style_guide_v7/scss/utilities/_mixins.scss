@@ -6,16 +6,14 @@
 
 @mixin buttons($map) {
     @each $btn, $color in $map {
-      & #{$btn} {
-        color: $color;
+      .#{$btn} {
+        background-color: $color;
         
        &:hover {
-        background-color: lighten ($color, 15%);
+        background-color: lighten($color, 15%);
+        transition: 0.5s;
       }
       }
     } 
   }
   
-  .btn {
-    @include buttons($btns);
-  }

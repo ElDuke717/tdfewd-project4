@@ -10,14 +10,10 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
-    %btn {
-      @include buttons($btns);
-    }
   }
   
-  .btn {
-    @include buttons($btns);
-  }
+  @include buttons($btns);
+  
   /*
   .default {
     background-color: $default-color;

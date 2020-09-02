@@ -10,46 +10,6 @@
 /* ============================================= */
 /*              Mixins                     */
 /* ============================================= */
-.btn default {
-  color: #51ddfc;
-}
-
-.btn default:hover {
-  background-color: lighten #51ddfc, 15%;
-}
-
-.btn success {
-  color: #63CC82;
-}
-
-.btn success:hover {
-  background-color: lighten #63CC82, 15%;
-}
-
-.btn info {
-  color: #927bc1;
-}
-
-.btn info:hover {
-  background-color: lighten #927bc1, 15%;
-}
-
-.btn error {
-  color: #e4757a;
-}
-
-.btn error:hover {
-  background-color: lighten #e4757a, 15%;
-}
-
-.btn warning {
-  color: #FD7846;
-}
-
-.btn warning:hover {
-  background-color: lighten #FD7846, 15%;
-}
-
 /*=====================================*/
 /*   Base Imports   */
 /*=====================================*/
@@ -453,44 +413,49 @@ a {
   border-radius: 5px;
 }
 
-.btn default {
-  color: #51ddfc;
+.default {
+  background-color: #51ddfc;
 }
 
-.btn default:hover {
-  background-color: lighten #51ddfc, 15%;
+.default:hover {
+  background-color: #9cecfd;
+  transition: 0.5s;
 }
 
-.btn success {
-  color: #63CC82;
+.success {
+  background-color: #63CC82;
 }
 
-.btn success:hover {
-  background-color: lighten #63CC82, 15%;
+.success:hover {
+  background-color: #9ddfb0;
+  transition: 0.5s;
 }
 
-.btn info {
-  color: #927bc1;
+.info {
+  background-color: #927bc1;
 }
 
-.btn info:hover {
-  background-color: lighten #927bc1, 15%;
+.info:hover {
+  background-color: #bdafd9;
+  transition: 0.5s;
 }
 
-.btn error {
-  color: #e4757a;
+.error {
+  background-color: #e4757a;
 }
 
-.btn error:hover {
-  background-color: lighten #e4757a, 15%;
+.error:hover {
+  background-color: #f1b5b8;
+  transition: 0.5s;
 }
 
-.btn warning {
-  color: #FD7846;
+.warning {
+  background-color: #FD7846;
 }
 
-.btn warning:hover {
-  background-color: lighten #FD7846, 15%;
+.warning:hover {
+  background-color: #feaf92;
+  transition: 0.5s;
 }
 
 /*
